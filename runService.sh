@@ -1,0 +1,1 @@
+docker run  -p 8080:8080 -d --name wlo-langdetect -v `pwd`/src:/src wlo-langdetect-py python3 /src/webservice.py 
